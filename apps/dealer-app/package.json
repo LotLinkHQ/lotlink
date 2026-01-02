@@ -1,0 +1,35 @@
+{
+    "name": "@lotlink/dealer-app",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+          "dev": "vite",
+          "build": "vite build",
+          "preview": "vite preview",
+          "lint": "eslint .",
+          "type-check": "tsc --noEmit"
+    },
+    "dependencies": {
+          "react": "^18.2.0",
+          "react-dom": "^18.2.0",
+          "@tanstack/react-router": "^1.28.0",
+          "@tanstack/react-query": "^5.28.0",
+          "@supabase/supabase-js": "^2.38.4",
+          "@supabase/ssr": "^0.0.12",
+          "shadcn-ui": "^0.0.4",
+          "tailwindcss": "^3.3.5",
+          "lucide-react": "^0.292.0",
+          "recharts": "^2.10.0",
+          "zustand": "^4.4.2"
+    },
+    "devDependencies": {
+          "@vitejs/plugin-react": "^4.1.1",
+          "vite": "^5.0.4",
+          "typescript": "^5.3.2",
+          "@types/react": "^18.2.37",
+          "@types/react-dom": "^18.2.15",
+          "eslint": "^8.53.0",
+          "prettier": "^3.1.0",
+          "@typescript-eslint/eslint-plugin": "^6.10.0"
+    }
+}
